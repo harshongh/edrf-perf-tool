@@ -13,7 +13,7 @@ EDRF Performance Analysis Tool
 Based on this data, it provides visual insights and exclusion recommendations to help reduce performance impact safely.
 
 ⚠️ This tool provides recommendations only. No exclusions are applied automatically.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Key Features**
 
  . Live CPU and File I/O charts
@@ -24,10 +24,14 @@ Based on this data, it provides visual insights and exclusion recommendations to
  . GUI and CLI in the same executable
  . No kernel drivers, no file content collection
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Requirements**
 
  . Windows 7 / Server 2008 or later
  . Administrator privileges
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Installation**
 **Option 1: MSI (Recommended)**
@@ -40,6 +44,8 @@ Based on this data, it provides visual insights and exclusion recommendations to
 
  1. Download EdrfPerfTool.exe
  2. Run as Administrator
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Running the Tool (GUI)**
 
@@ -61,6 +67,8 @@ Options:
 --duration <minutes> : Run duration (1–30)
 --gui : Launch graphical interface
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Output Files**
 
 By default, reports are saved to: C:\ProgramData\EDRF_Team\
@@ -71,6 +79,8 @@ By default, reports are saved to: C:\ProgramData\EDRF_Team\
 
  . TopProcesses.csv
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Security & Privacy**
 
  . No file contents collected
@@ -78,13 +88,21 @@ By default, reports are saved to: C:\ProgramData\EDRF_Team\
  . No exclusions applied automatically
  . Uses Windows ETW (Event Tracing for Windows)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Uninstall**
 
  . Via Control Panel → Programs
  . silent uninstall (see below)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Support**
 
 Internal EDRF teams only.
 Support
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Created By Harsh Gautam
 
 Internal EDRF teams only.
