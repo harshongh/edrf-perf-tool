@@ -6,9 +6,9 @@ EDRF Performance Analysis Tool
 
 **The tool collects:**
 
-  . CPU usage patterns
-  . File read/write activity
-  . Process interaction statistics
+  - CPU usage patterns
+  - File read/write activity
+  - Process interaction statistics
 
 Based on this data, it provides visual insights and exclusion recommendations to help reduce performance impact safely.
 
@@ -16,20 +16,20 @@ Based on this data, it provides visual insights and exclusion recommendations to
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Key Features**
 
- . Live CPU and File I/O charts
- . Top processes, files, and extensions
- . Exclusion recommendations with confidence score
- . Dark / Warm / Normal UI modes
- . Export reports in JSON and CSV
- . GUI and CLI in the same executable
- . No kernel drivers, no file content collection
+ - Live CPU and File I/O charts
+ - Top processes, files, and extensions
+ - Exclusion recommendations with confidence score
+ - Dark / Warm / Normal UI modes
+ - Export reports in JSON and CSV
+ - GUI and CLI in the same executable
+ - No kernel drivers, no file content collection
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Requirements**
 
- . Windows 7 / Server 2008 or later
- . Administrator privileges
+ - Windows 7 / Server 2008 or later
+ - Administrator privileges
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -55,10 +55,10 @@ Based on this data, it provides visual insights and exclusion recommendations to
 
 **UI Options**
 
- . Theme Selector: Normal / Dark / Warm
- . Live Charts: CPU & File I/O
- . Exclusion Panel: Suggested exclusions
- . Export Buttons: JSON / CSV
+ - Theme Selector: Normal / Dark / Warm
+ - Live Charts: CPU & File I/O
+ - Exclusion Panel: Suggested exclusions
+ - Export Buttons: JSON / CSV
 
 **Running the Tool (CLI)**
 EdrfPerfTool.exe --duration 10
@@ -75,25 +75,24 @@ By default, reports are saved to: C:\ProgramData\EDRF_Team\
 
 **Files:**
 
- . Perf.json
-
- . TopProcesses.csv
+ - Perf.json
+ - TopProcesses.csv
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Security & Privacy**
 
- . No file contents collected
- . No registry modifications
- . No exclusions applied automatically
- . Uses Windows ETW (Event Tracing for Windows)
+ - No file contents collected
+ - No registry modifications
+ - No exclusions applied automatically
+ - Uses Windows ETW (Event Tracing for Windows)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Uninstall**
 
- . Via Control Panel → Programs
- . silent uninstall (see below)
+ - Via Control Panel → Programs
+ - silent uninstall (see below)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -101,8 +100,9 @@ By default, reports are saved to: C:\ProgramData\EDRF_Team\
 
 Internal EDRF teams only.
 
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-© ⚡Created By 🤓 Harsh Gautam 🧠⚡
+
+
+                                                © ⚡Created By 🤓 Harsh Gautam 🧠⚡
 
 
