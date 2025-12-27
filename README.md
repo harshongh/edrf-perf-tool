@@ -100,9 +100,9 @@ By default, reports are saved to: C:\ProgramData\EDRF_Team\
 **Support**
 
 Internal EDRF teams only.
-Support
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Created By Harsh Gautam
+© ⚡Created By 🤓 Harsh Gautam 🧠⚡
 
-Internal EDRF teams only.
+
