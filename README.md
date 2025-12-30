@@ -1,5 +1,22 @@
 # edrf-perf-tool
 EDRF Performance Analysis Tool
+**Diagram**
+├── edrf_perf_tool          (C++)
+│   ├── main.cpp
+│   ├── etw_collector.cpp
+│   ├── etw_collector.h
+│   ├── stats.h
+│   └── .vscode\tasks.json
+│
+├── edrf_ui                 (WPF)
+│   ├── MainWindow.xaml
+│   ├── MainWindow.xaml.cs
+│   └── edrf_ui.csproj
+│
+└── edrf_drv                (WDK)
+    ├── driver.c
+    ├── driver.h
+    └── edrf_drv.inf
 **Overview**
 
 **EDRF Performance Tool (EdrfPerfTool.exe)** is a Windows diagnostic utility that helps EDRF Internal team to  understand how xclient.exe impacts system performance.
